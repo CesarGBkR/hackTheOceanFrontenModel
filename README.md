@@ -75,23 +75,28 @@ Utilizamos Prisma en nuestro proyecto para mapear las estructuras de nuestra bas
 Utilizamos Docker para obtener una imagen de mySQL y lo corrimos como un contenedor, en el cual creamos la base de datos de nuestro proyecto.
 
 *Imagen creada a partir de un Container:*
-![Docker Desktop](./imgToDocumentation/database/db-dockerdesktop.png)
+
+![Docker Desktop](./ImgToDocumentation/database/db-dockerdesktop.png)
 
 *Ejecucion de la imagen: (La base de datos es diferente a final)*
-![Docker run](./imgToDocumentation/database/db-dockerrun.png)
+
+![Docker run](./ImgToDocumentation/database/db-dockerrun.png)
 
 *Imagen en Docker Hub:*
-![Docker Hub](./imgToDocumentation/database/db-dockerhub.png)
+
+![Docker Hub](./ImgToDocumentation/database/db-dockerhub.png)
 
 Dicho contenedor lo pudimos convertir en una imagen personalizada, la cual subimos a Docker Hub. Los miembros de nuestro equipo ya podía hacer pull a esta imagen, sin embargo para facilitar el accesso a nuestra base de datos decidimos desplegar un contenedor de esta imagen en Azure con ACI. Una vez logrado este paso todos los miembros del equipo podían conectarse a la base de datos remotamente y sin necesidad de tener Docker instalado.
 
 *URL de la base de datos en un ACI de Azure*
-![DB-ACI](./imgToDocumentation/database/db-url.png)
+
+![DB-ACI](./ImgToDocumentation/database/db-url.png)
 
 Utilizando el Cloud Shell de Azure pudimos acceder a la base de datos y correr algunas consultas y modificar el schema.
 
 *Corriendo queries en la base de datos final*
-![Azure Database](./imgToDocumentation/database/db-azureaci.png)
+
+![Azure Database](./ImgToDocumentation/database/db-azureaci.png)
 
 ## Tecnología usadas
 
