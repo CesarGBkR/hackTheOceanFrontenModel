@@ -38,7 +38,11 @@ Los usuarios pueden consultar los detalles sobre estos eventos en una tabla que 
 
 Creamos el Frontend de nuestra aplicación web utilizando el framework de Vue, existen dos rutas. La ruta principal nos lleva a una página de bienvenida donde presentamos información que nos concierne sobre el tema de los derrames de petróleo en el océano.
 
+![front home](./ImgToDocumentation/front/front-home.png)
+
 La ruta Oil Spills es la que nos lleva a la tabla que muestra los eventos de derrame de petróleo.
+
+![front oil spills](./ImgToDocumentation/front/front-oilspills.png)
 
 ### Node Js, npm, Prisma
 
@@ -74,6 +78,10 @@ Utilizamos Prisma en nuestro proyecto para mapear las estructuras de nuestra bas
 
 ![endpoint_putToUpdateDerrame.png](./ImgToDocumentation/Endpoints/endpoint_putToUpdateDerrame.png)
 
+*Database Schema*
+
+![Database schema](./ImgToDocumentation/database/db-format.png)
+
 ### mySQL, Docker, Azure
 
 Utilizamos Docker para obtener una imagen de mySQL y lo corrimos como un contenedor, en el cual creamos la base de datos de nuestro proyecto.
@@ -101,6 +109,10 @@ Utilizando el Cloud Shell de Azure pudimos acceder a la base de datos y correr a
 *Corriendo queries en la base de datos final*
 
 ![Azure Database](./ImgToDocumentation/database/db-azureaci.png)
+
+*Datos agregados a la base de datos*
+
+![Database data](./ImgToDocumentation/database/dp-data.png)
 
 ## Tecnología usadas
 
