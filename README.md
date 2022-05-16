@@ -28,6 +28,8 @@ Los usuarios pueden consultar los detalles sobre estos eventos en una tabla que 
 
 ## Mapa de proceso
 
+![process map](./ImgToDocumentation/goto-processmap.png)
+
 ## Logros alcanzados
 
 ### Vue
